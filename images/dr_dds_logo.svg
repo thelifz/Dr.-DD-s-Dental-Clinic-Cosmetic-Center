@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 70" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dfb76c"/>
+      <stop offset="50%" stop-color="#cfa661"/>
+      <stop offset="100%" stop-color="#a67c33"/>
+    </linearGradient>
+    <linearGradient id="navyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1429"/>
+      <stop offset="100%" stop-color="#142850"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Emblem Mark -->
+  <g transform="translate(10, 5)">
+    <!-- Outer Octagon / Diamond Ring -->
+    <rect x="5" y="5" width="50" height="50" rx="14" fill="none" stroke="url(#goldGrad)" stroke-width="2.5" />
+    <!-- Stylized Aesthetic Dental & Diamond Monogram -->
+    <path d="M 23 20 C 23 16, 26 14, 30 14 C 34 14, 37 16, 37 20 C 37 26, 35 34, 34 42 C 33.5 45, 31 46, 30 46 C 29 46, 26.5 45, 26 42 C 25 34, 23 26, 23 20 Z" fill="none" stroke="url(#goldGrad)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 30 18 L 30 43" stroke="url(#goldGrad)" stroke-width="1.5" stroke-linecap="round" opacity="0.8"/>
+    <!-- Subtle Star / Sparkle in Top Right of Crest -->
+    <path d="M 45 10 L 46 13 L 49 14 L 46 15 L 45 18 L 44 15 L 41 14 L 44 13 Z" fill="url(#goldGrad)"/>
+  </g>
+
+  <!-- Typography -->
+  <g transform="translate(80, 0)">
+    <!-- Primary Title -->
+    <text x="0" y="34" font-family="'Playfair Display', Georgia, serif" font-size="26" font-weight="700" letter-spacing="1.5" fill="#0a1429">
+      DR. DD'S
+    </text>
+    <!-- Subtitle / Specialty -->
+    <text x="1" y="52" font-family="'Inter', -apple-system, sans-serif" font-size="9" font-weight="600" letter-spacing="3" fill="#cfa661">
+      DENTAL CLINIC &amp; COSMETIC CENTER
+    </text>
+  </g>
+</svg>
